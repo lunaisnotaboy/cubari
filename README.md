@@ -5,7 +5,7 @@ A rewrite of [Cubari](https://cubari.moe).
 ## Requirements
 
 - Node.js 14.x
-- Yarn 1.x
+- Yarn CLI
 
 ## License
 
