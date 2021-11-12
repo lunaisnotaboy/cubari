@@ -1,0 +1,11 @@
+// The main stylesheet
+
+// Import base styles
+@import 'base';
+
+// Cubari logo
+.cubari-logo:before {
+  content: 'c';
+  display: inline-block;
+  font-family: 'coobaree';
+}

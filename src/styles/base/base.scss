@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+body {
+  background-color: #050505;
+  color: #fff;
+  min-height: 100%;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+a {
+  color: #e25656;
+  text-decoration: none !important;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1.2em;
+  margin: 0 0.2em;
+}
+
+p {
+  line-height: 1.5;
+}

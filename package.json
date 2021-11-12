@@ -7,6 +7,10 @@
   "license": "AGPL-3.0",
   "private": true,
   "packageManager": "yarn@3.1.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "node ./server.js"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
@@ -18,9 +22,14 @@
     "sass-loader": "^12.3.0",
     "terser-webpack-plugin": "^5.2.5",
     "webpack": "^5.64.0",
+    "webpack-assets-manifest": "^5.0.6",
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1",
+    "pug": "^3.0.2",
+    "remotestoragejs": "^2.0.0-beta.1"
   }
 }
